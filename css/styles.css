@@ -1,0 +1,232 @@
+:root {
+	--color-text-title: #212121;
+	--color-logo: #000000;
+	--color-accent: #2196f3;
+	--color-text-main: #757575;
+	--color-text-white: #ffffff;
+	--color-background-main: #ffffff;
+	--color-background-second: #f5f4fa;
+	--color-background-hero: #2f303a;
+	--color-header-border: #ececec;
+}
+
+body {
+	background-color: var(--color-background-main);
+	color: var(--color-text-main);
+	font-family: Roboto, sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.03em;
+}
+
+.section {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+
+.container {
+	width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	/* background-color: #2196f3; */
+}
+
+.list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	/*	background-color: #2196f3;*/
+}
+
+.link {
+	text-decoration: none;
+	color: inherit;
+}
+
+.link:hover,
+.link:focus,
+.link.link-current {
+	color: var(--color-accent);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
+.title {
+	color: var(--color-text-title);
+	font-weight: 700;
+}
+
+.button {
+	color: var(--color-text-white);
+	background-color: var(--color-accent);
+	font-family: inherit;
+	text-align: center;
+	border-radius: 4px;
+	border: 0;
+}
+
+/*Невидимый заголовок*/
+.title-none {
+	color: rgba(0, 0, 0, 0);
+}
+
+/*-------------------header-------------------*/
+.header {
+	border-bottom: 1px solid var(--color-header-border);
+}
+
+.header > .container {
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.logo {
+	color: var(--color-logo);
+	font-family: Raleway, sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+}
+
+.logo-part {
+	color: var(--color-accent);
+}
+
+.nav,
+.cotacts {
+	font-family: "Roboto";
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+}
+
+.nav-link {
+	color: var(--color-text-title);
+}
+/*-------------------hero-------------------*/
+.hero {
+	background-color: var(--color-background-hero);
+	text-align: center;
+	letter-spacing: 0.06em;
+}
+
+.hero > .container {
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+.hero-title {
+	color: var(--color-text-white);
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.hero-button {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	letter-spacing: 0.06em;
+	padding: 10px 32px;
+}
+/*-------------------features-------------------*/
+.features-title {
+	font-size: 14px;
+	line-height: 1.14;
+	text-transform: uppercase;
+}
+
+.features-text {
+	font-size: 14px;
+	line-height: 1.71;
+}
+/*-------------------doing----------------------*/
+.doing-title,
+.team-title {
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+}
+
+/*-------------------team-----------------------*/
+.team {
+	background-color: var(--color-background-second);
+}
+
+.team-list-title,
+.team-text {
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+}
+
+.team-list-title {
+	font-weight: 500;
+}
+
+.team-list-item {
+	background-color: var(--color-background-main);
+	width: 270px;
+	height: 362px;
+}
+/*-------------------footer----------------------*/
+.footer {
+	background-color: var(--color-background-hero);
+}
+
+.footer > .container {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.footer > .logo,
+.footer-link-adr {
+	color: var(--color-text-white);
+}
+
+.footer-link {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.footer > address {
+	font-style: normal;
+	font-size: 14px;
+	line-height: 1.71;
+}
+
+/*-------------------portf-------------------*/
+.portf-but.button {
+	color: var(--color-text-title);
+	background-color: var(--color-background-second);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.63;
+	padding: 6px 22px;
+}
+
+.portf-but.button:hover,
+.portf-but.button:focus {
+	color: var(--color-text-white);
+	background-color: var(--color-accent);
+}
+
+.portf-title {
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+}
+
+.portf-text {
+	font-size: 16px;
+	line-height: 1.88;
+}
